@@ -1,0 +1,12 @@
+# This timer unit is for daily mysql backups
+
+[Unit]
+Description=Executes everyday at midnight
+Requires=mysql-backup.service
+
+[Timer]
+Unit=mysql-backup.service
+OnCalendar=*-*-* 00:00:00
+
+[Install]
+WantedBy=timers.target
