@@ -1,0 +1,12 @@
+# This service unit is for creating mysql backups
+
+[Unit]
+Description=Creates a daily mysql backup of site db
+Wants=mysql-backup.timer
+
+[Service]
+Type=oneshot
+ExecStart=/PATH_TO/mysql-backup.sh
+
+[Install]
+WantedBy=multi-user.target
