@@ -1,4 +1,4 @@
-# Automatic MySQL backup using Systemd timers
+# MySQL backup using Systemd timers
 
 <a href="#">
    <img src="https://img.shields.io/badge/release-v1.0-blue.svg" alt="release badge version 1.0">
