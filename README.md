@@ -2,12 +2,7 @@
 
 <a href="#">
    <img src="https://img.shields.io/badge/release-v1.0-blue.svg" alt="release badge version 1.0">
-</a> 
-
-<a href="#instructions">Instructions</a> |
-<a href="#references">References</a> |
-<a href="#credits">Credits</a> 
-
+</a>
 
 ## Instructions
 
